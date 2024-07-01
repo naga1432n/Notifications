@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.notifications-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.notification img {
+  margin-right: 10px;
+}
+
+.info {
+  background-color: #0b69ff;
+}
+
+.success {
+  background-color: #2dca73;
+}
+
+.waning {
+  background-color: #ffb800;
+}
+
+.error {
+  background-color: #ff0b37;
+}
